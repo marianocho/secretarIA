@@ -1,0 +1,8 @@
+python-telegram-bot>=21.0
+google-api-python-client>=2.0
+google-auth>=2.0
+google-auth-oauthlib>=1.0
+python-dotenv>=1.0
+# Windows não traz a base IANA de timezones por default. Sem isso, zoneinfo
+# crasha em "ZoneInfoNotFoundError: America/Sao_Paulo". Inofensivo em Linux/Mac.
+tzdata>=2024.1
